@@ -2,7 +2,7 @@ English | [简体中文](README.zh-Hans.md)
 
 # ChatOllama + Deep Agents
 
-> **🔐 New ACL Feature (2025-08-25):** Access Control Lists (ACL) for MCP server management! Control who can configure MCP servers with `ACL_ENABLED` environment variable. [Learn more about ACL configuration →](#mcp-server-management-permissions)
+> **🔐 New ACL Feature (2025-08-25):** Access Control Lists (ACL) for MCP server management! Control who can configure MCP servers with `ACL_ENABLED` environment variable.
 
 > **🤖 Deep Agents Support (2025-08-19):** ChatOllama now supports AI Agents with tool access! Currently requires Anthropic API key. Please refer to `.env.example` and set `ANTHROPIC_API_KEY` in `.env`. Tools are configured through MCP settings. Visit `/agents` to get started.
 
@@ -460,17 +460,3 @@ pnpm promote-super-admin --list            # List all super admins
 - **Vector DB:** ChromaDB, Milvus
 - **AI/ML:** LangChain, Ollama, OpenAI, Anthropic, Google AI
 - **Deployment:** Docker, Docker Compose
-
-## Join Our Community
-
-Join our Discord community for support, discussions, and updates:
-
-**[Discord Invite Link](https://discord.gg/TjhZGYv5pC)**
-
-- **#technical-discussion** - For contributors and technical discussions
-- **#customer-support** - Get help with usage issues and troubleshooting
-- **#general** - Community chat and announcements
-
-## License
-
-[MIT License](LICENSE)
